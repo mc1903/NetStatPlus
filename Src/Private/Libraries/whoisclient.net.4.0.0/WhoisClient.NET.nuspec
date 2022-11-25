@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>WhoisClient.NET</id>
+    <version>4.0.0</version>
+    <authors>J.Sakamoto, Keith J. Jones</authors>
+    <license type="expression">MS-PL</license>
+    <licenseUrl>https://licenses.nuget.org/MS-PL</licenseUrl>
+    <icon>nupkg-icon.png</icon>
+    <readme>README.md</readme>
+    <projectUrl>https://github.com/jsakamoto/WhoisClient.NET/</projectUrl>
+    <description>This library is a WHOIS protocol client used to search owner information by IP address or domain name.
+This library determines the WHOIS server automatically and queries the referral server recursively.
+The response of the whois query contains strongly typed values, and the raw output.</description>
+    <releaseNotes>To see all the change logs, please visit the following URL.
+- https://github.com/jsakamoto/WhoisClient.NET/blob/master/RELEASE-NOTES.txt</releaseNotes>
+    <copyright>Copyright 2012-2022 J.Sakamoto; Copyright Keith J. Jones, 2016, Ms-PL License.</copyright>
+    <tags>whois</tags>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="IPAddressRange" version="3.2.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
