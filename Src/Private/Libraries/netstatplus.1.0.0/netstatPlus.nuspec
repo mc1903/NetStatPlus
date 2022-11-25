@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>netstatPlus</id>
+    <version>1.0.0</version>
+    <authors>fknMega</authors>
+    <projectUrl>https://github.com/fknMega/netstatPlus</projectUrl>
+    <description>An Simple C# Written Libary to get all Active connections (TCP)</description>
+    <copyright>fknMega</copyright>
+    <tags>tcp, connections</tags>
+    <repository url="https://github.com/fknMega/netstatPlus" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.7.2" />
+    </dependencies>
+  </metadata>
+</package>
