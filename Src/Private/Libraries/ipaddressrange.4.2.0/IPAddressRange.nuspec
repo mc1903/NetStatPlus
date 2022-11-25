@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>IPAddressRange</id>
+    <version>4.2.0</version>
+    <title>IPAddressRange</title>
+    <authors>J.Sakamoto</authors>
+    <owners>J.Sakamoto</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MPL-2.0</license>
+    <licenseUrl>https://licenses.nuget.org/MPL-2.0</licenseUrl>
+    <icon>nupkg-icon.png</icon>
+    <projectUrl>https://github.com/jsakamoto/ipaddressrange/</projectUrl>
+    <description>This library allows you to parse range of IP address string such as "192.168.0.0/24" and "192.168.0.0/255.255.255.0" and "192.168.0.0-192.168.0.255", and can contains check. This library supports both IPv4 and IPv6.</description>
+    <summary>This library allows you to parse range of IP address string, and can contains check.</summary>
+    <releaseNotes>v.4.2.0
+- Improved the performance of the "GetPrefixLength ()" method.</releaseNotes>
+    <copyright>Copyright © 2012-2021 J.Sakamoto, Mozilla Public License 2.0</copyright>
+    <tags>IPAddress</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5" />
+      <group targetFramework=".NETStandard1.4">
+        <dependency id="NETStandard.Library" version="1.6.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
